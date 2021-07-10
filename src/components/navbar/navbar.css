@@ -1,0 +1,114 @@
+:root {
+   --themeColor2: #f1356d;
+}
+
+.nav-fixed {
+   will-change: transform;
+   z-index: 999;
+   margin: 0 auto;
+   background-color: transparent;
+}
+
+.nav-wrapper {
+   background-color: #ffffff;
+   border-bottom: 1px solid #f2f2f2;
+}
+.menu {
+   color: var(--themeColor2);
+}
+
+.myTabs {
+   font-weight: 900;
+   font-size: 20px;
+   color: var(--themeColor2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@media only screen and (min-width: 976px) {
+   .nav-fixed {
+      margin-top: 20px;
+      width: 900px;
+   }
+   .nav-wrapper {
+      border-radius: 8px;
+   }
+}
+@media only screen and (max-width: 976px) {
+   .nav-fixed {
+      top: 0;
+      position: fixed;
+   }
+   .navSpace {
+      width: 100%;
+      height: 64px;
+   }
+}
+@media only screen and (max-width: 600px) {
+   .navSpace {
+      height: 56px;
+   }
+   .navIcons {
+      width: 45px !important;
+      height: 45px !important;
+      border-radius: 50%;
+   }
+   .navIcons:hover {
+      background-color: var(--themeColor2) !important;
+      color: #fff !important;
+   }
+   .brandLogo {
+      height: 56px !important;
+   }
+   .logoutBtn a {
+      font-size: 14px !important;
+   }
+}
+.logoutBtn {
+   height: 100%;
+   width: 100%;
+   transition: 0.2s;
+}
+.logoutBtn a {
+   background-color: #f1356d;
+   border-radius: 8px !important;
+   text-transform: none;
+   width: 100%;
+}
+.logoutBtn a:hover {
+   background-color: #eb1e5c !important;
+}
+.logoutBtn a:focus {
+   background-color: #eb1e5c !important;
+}
+/*navIcons*/
+#nav-logout {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.navIcons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+}
+.brandLogo {
+   height: 64px;
+   position: absolute;
+   color: var(--themeColor2) !important;
+   font-weight: 600;
+   margin-left: 15px;
+   display: flex;
+   align-items: center;
+   font-size: 3rem;
+   font-weight: 900;
+}
+#nav-logout li {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

@@ -1,0 +1,11 @@
+node_modules
+.env
+<<<<<<< HEAD
+/build
+package-lock.json
+=======
+/build
+>>>>>>> cb62d794794f2350d2299aa9ad7269866f3cae17
+
+# Local Netlify folder
+.netlify

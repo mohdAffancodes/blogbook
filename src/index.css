@@ -1,0 +1,54 @@
+@font-face {
+   font-family: "Quicksand";
+   src: url(fonts/Quicksand-VariableFont_wght.ttf) format("truetype");
+}
+/* fallback */
+@font-face {
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: 400;
+   src: url(https://fonts.gstatic.com/s/materialicons/v85/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+      format("woff2");
+}
+
+.material-icons {
+   font-family: "Material Icons";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 1;
+   letter-spacing: normal;
+   text-transform: none;
+   display: inline-block;
+   white-space: nowrap;
+   word-wrap: normal;
+   direction: ltr;
+   -moz-font-feature-settings: "liga";
+   font-feature-settings: "liga";
+   -moz-osx-font-smoothing: grayscale;
+}
+body {
+   margin: 0;
+   font-family: "Quicksand";
+   color: rgb(202, 202, 202);
+   background-color: #1c1c1c;
+}
+
+.content {
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.material-icons {
+   -webkit-touch-callout: none !important;
+   -webkit-user-select: none !important;
+   -moz-user-select: none !important;
+   -ms-user-select: none !important;
+   user-select: none !important;
+}
+@media only screen and (max-width: 600px) {
+   .row,.col {
+      padding: 0 !important;
+   }
+}
