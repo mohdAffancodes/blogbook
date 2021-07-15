@@ -48,7 +48,11 @@ body {
    user-select: none !important;
 }
 @media only screen and (max-width: 600px) {
-   .row,.col {
+   .row,
+   .col {
       padding: 0 !important;
    }
+}
+.ql-snow .ql-tooltip {
+   z-index: 100 !important;
 }

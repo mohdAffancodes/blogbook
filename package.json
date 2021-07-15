@@ -22,7 +22,8 @@
       "start": "react-scripts start",
       "build": "react-scripts build",
       "ngrok": "ngrok http 3000",
-      "predeploy": "npm run build && netlify deploy"
+      "predeploy": "npm run build && netlify deploy",
+      "deploy": "netlify deploy"
    },
    "eslintConfig": {
       "extends": [
