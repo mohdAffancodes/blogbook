@@ -86,7 +86,7 @@ const DemoBlog = () => {
       }
 
       function hideToolbar() {
-         blogTitle.contentEditable = true;
+         blogTitle.contentEditable = false;
          editIcon.textContent = "edit";
          //.hide toolbar
          toolbar.style.visibility = "hidden";
