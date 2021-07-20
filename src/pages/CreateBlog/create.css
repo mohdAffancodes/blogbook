@@ -66,6 +66,7 @@
 
 .addBlog:hover {
    background: #eb1e5c;
+   transform: scale(1.05);
 }
 
 .create #ql-space {
