@@ -16,7 +16,7 @@ const Home = () => {
    return (
       <div>
          <Helmet>
-            <title>Home | blogbook</title>
+            <title>{user ? "Home" : "Land"} | blogbook</title>
          </Helmet>
          {authReady && (
             <div className="home">
