@@ -1,4 +1,4 @@
-//Hooks
+//Hookss
 import { useParams, useHistory } from "react-router-dom";
 import React, { useState, useEffect, useContext, useReducer } from "react";
 //Components
