@@ -183,7 +183,7 @@ const BlogDetails = () => {
 
    return (
       <div>
-         <Helmet>{blog && <title>{blog.title} | blogbook</title>}</Helmet>
+         <Helmet>{blog && <title>blogbook</title>}</Helmet>
          <div className="blog-details">
             {updating && <h2>Saving Changes</h2>}
             {(updating || status === "loading") && <LinearLoader />}
